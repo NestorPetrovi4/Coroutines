@@ -1,6 +1,7 @@
 package ru.netology.coroutines.dto
 
-data class PostWithComments(
+data class PostWithAuthorComments(
     val post: Post,
+    val author: Author,
     val comments: List<Comment>,
 )
